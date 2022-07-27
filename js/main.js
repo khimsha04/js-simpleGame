@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://ucha.ge:8082");
+const socket = new WebSocket("ws://ucha.ge:8080");
 let isSocketConnected = false;
 socket.addEventListener("open", function (event) {
   isSocketConnected = true;
